@@ -1,0 +1,6 @@
+plaintext = input();
+key = input()
+
+for i in xrange(0, len(plaintext)):
+    ciphertext.append(ord(plaintext[i]) ^ ord(key[i%len(key)])) 
+join(map(chr, ciphertext))
